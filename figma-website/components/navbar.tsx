@@ -28,7 +28,7 @@ export function Navbar() {
       }, [scroll]);
 
     return (
-        <nav className={`flex justify-between items-center px-9 fixed py-6 w-full ${background} transition-transform duration-300 ${hidden ? '-translate-y-full' : ''}` }>
+        <nav className={`flex justify-between items-center px-9 fixed py-6 w-full z-50 ${background} transition-transform duration-300 ${hidden ? '-translate-y-full' : ''}` }>
             <ul className='flex gap-4 justify-start items-center w-full'>
                 <li>
                     <Link href="/">
