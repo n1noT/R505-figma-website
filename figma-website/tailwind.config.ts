@@ -13,6 +13,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      height: {
+        "card-lg": "45rem",
+      },
     },
   },
   plugins: [],
