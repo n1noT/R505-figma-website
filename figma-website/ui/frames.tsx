@@ -1,8 +1,10 @@
-import { useId } from 'react';
+import { useId, useEffect } from 'react';
 
 export default function Frames({ frame, setClipPathId }) {
     const clipPathId = useId();
-    setClipPathId(clipPathId);
+    useEffect(() => {
+        setClipPathId(clipPathId);
+    }, [clipPathId, setClipPathId]);
 
     if (frame == 'picked-retangle') {
         return (
