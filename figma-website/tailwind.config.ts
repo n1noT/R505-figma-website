@@ -1,6 +1,6 @@
 import type { Config } from "tailwindcss";
 
-export default {
+const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -17,9 +17,20 @@ export default {
         "card-lg": "45rem",
       },
       animation: {
-        'spin-slow': 'spin 8s linear infinite', 
+        "spin-slow": "spin 8s linear infinite",
+        "bandeau": "bandeau 20s linear infinite",
+        "bandeau-follower": "bandeau 20s linear infinite 15s",
+
+      },
+      keyframes: {
+        bandeau: {
+          "0%": { transform: "translateX(150%)" },
+          "100%": { transform: "translateX(-150%)"},
+        },
       },
     },
   },
   plugins: [],
-} satisfies Config;
+};
+
+export default config;
