@@ -16,6 +16,9 @@ export default {
       height: {
         "card-lg": "45rem",
       },
+      animation: {
+        'spin-slow': 'spin 8s linear infinite', 
+      },
     },
   },
   plugins: [],

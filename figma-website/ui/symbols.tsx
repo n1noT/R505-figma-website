@@ -8,7 +8,7 @@ export default function Symbols ({ symbol }) {
     }
 
     if(symbol == 'triangle'){
-        return(<svg xmlns="http://www.w3.org/2000/svg" width="38" height="34" fill="none"><path stroke="#0FA958" stroke-width="4.132" d="m18.652 4.687 15.06 26.774H3.592z"/><path fill="#0FA958" d="M23.196 25.263h-9.09L18.651 17z"/></svg>)
+        return(<svg xmlns="http://www.w3.org/2000/svg" width="38" height="34" fill="none"><path stroke="#0FA958" strokeWidth="4.132" d="m18.652 4.687 15.06 26.774H3.592z"/><path fill="#0FA958" d="M23.196 25.263h-9.09L18.651 17z"/></svg>)
     }
 
     if(symbol == 'rounded'){
