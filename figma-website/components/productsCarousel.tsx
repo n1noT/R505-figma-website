@@ -1,7 +1,6 @@
-"use client"   ;
+"use client";
 
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { Carousel } from '@trendyol-js/react-carousel';
 import ProductCardCarousel from '@/components/productCardCarousel';
 
