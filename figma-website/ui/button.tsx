@@ -1,6 +1,6 @@
 import { cva } from 'class-variance-authority';
 
-const baseClasses = "rounded-full font-medium uppercase";
+const baseClasses = "rounded-full font-bold uppercase";
 
 const buttonClasses = cva(baseClasses, {
   variants: {

@@ -19,13 +19,12 @@ const config: Config = {
       animation: {
         "spin-slow": "spin 8s linear infinite",
         "bandeau": "bandeau 20s linear infinite",
-        "bandeau-follower": "bandeau 20s linear infinite 15s",
 
       },
       keyframes: {
         bandeau: {
-          "0%": { transform: "translateX(150%)" },
-          "100%": { transform: "translateX(-150%)"},
+          "0%": { transform: "translateX(120%)" },
+          "100%": { transform: "translateX(-120%)"},
         },
       },
     },

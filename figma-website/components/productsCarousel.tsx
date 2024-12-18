@@ -48,7 +48,7 @@ export default function ProductsCarousel() {
                 <ProductCardCarousel key={index} product={product}/>
             ))}
         </Carousel>
-        <div className='absolute w-40 h-40 right-60 -bottom-20 border-2 border-black rounded-full group'>
+        <div className='absolute w-24 h-24 right-10 -bottom-12 md:w-40 md:h-40 lg:right-60 md:-bottom-20 border-2 border-black rounded-full group'>
             <div className='relative w-full h-fullrounded-full group-hover:transition group-hover:duration-300'>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="1.5 1.5 168 168" className="animate-spin-slow absolute" >
                     <g >

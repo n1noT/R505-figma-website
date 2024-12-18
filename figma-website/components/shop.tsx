@@ -87,8 +87,8 @@ export default function Shop() {
        
     return (
         <section>
-            <div className="flex justify-center items-center pt-40 p-96 pb-16 bg-white w-full group">
-                <div className="font-bold text-black text-7xl flex flex-wrap justify-center items-center">
+            <div className="flex justify-center items-center pt-16 p-8 pb-8 lg:pt-40 lg:p-96 lg:pb-16 bg-white w-full group">
+                <div className="font-bold text-black text-lg md:text-7xl flex flex-wrap justify-center items-center">
                     <span className={`group-hover:opacity-50 px-2 ${activeLayers ? "opacity-100" : "!opacity-50"} ${activeComponents ? "opacity-100" : "!opacity-50"} `}> Figma's </span> 
                     <Symbols symbol="star"/> 
                     <span className={`group-hover:opacity-50 px-2 ${activeLayers ? "opacity-100" : "!opacity-50"} ${activeComponents ? "opacity-100" : "!opacity-50"}`}> Collection </span>
@@ -110,7 +110,7 @@ export default function Shop() {
                     <span className={`group-hover:opacity-50 px-2 ${activeLayers ? "opacity-100" : "!opacity-50"} ${activeComponents ? "opacity-100" : "!opacity-50"}`}> friends </span>
                 </div>
             </div>
-            <div className="flex flex-col justify-center items-center py-24 bg-white w-full gap-12">
+            <div className="flex flex-col justify-center items-center py-8 md:py-24 bg-white w-full gap-12">
                 {activeLayers ? <GridProducts data={data.layers} /> : <></>}
                 {activeComponents ? <GridProducts data={data.components} /> : <></>}
             </div>
